@@ -493,51 +493,51 @@ main>.row:nth-child(2)>.container>.col:last-child>ul>li>a>div:first-child{
 #slider{
     position: relative;
     margin-top: 20px;
-	padding: 0 10px;
+    padding: 0 10px;
     height: 388px;
-    /* overflow-x: scroll; */
+}
+
+#slider-wrapper{
+    height: 100%;
     overflow: hidden;
     scroll-behavior: smooth;
-    scroll-snap-type: x mandatory;
+    scroll-snap-type: x mandatory;    
 }
 
 .slide{
+    position: relative;
     scroll-snap-align: center;
-    /* position: relative; */
     position: absolute;
     background-repeat: no-repeat;
     height: 388px;
     background-size: contain;
     background-position: center;
-    /* float: left; */
-    /* display: inline-block; */
-    width: 100%;   
+    width: 100%;
 }
 
 .slide .prev, .slide .next{
     position: absolute;
     text-align: center;
-    /* display: block; */
-    line-height: 28px;
     width: 30px;
     height: 30px;
-    background-color: rgba(128, 138, 133, 0.9);
+    line-height: 28px;
+    background-color: rgba(128,130,133,0.9);
     top: 0;
     bottom: 0;
     margin: auto;
-    border-radius: 100%
+    border-radius: 100%;
 }
 
 .slide .prev:hover, .slide .next:hover{
-    background-color: rgba(128, 138, 133, 0.8);
+    background-color: rgba(128,130,133,0.8);
 }
 
 .slide .prev{
-    left: 10px;
+    left: 20px;
 }
 
 .slide .next{
-    right: 10px;
+    right: 20px;
 }
 
 .slide ion-icon{
@@ -574,14 +574,14 @@ main>.row:nth-child(2)>.container>.col:last-child>ul>li>a>div:first-child{
     background-image: url('https://boc.lk/image/data/Banner/power-branch-close-2022-En-1.jpg');
 }
 
-
-#slider-wrapper{
-    position: relative;
+#slides-wrapper{
     width: 100%;
+    position: relative;
     animation-name: slider-animation;
-    animation-duration: 20s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
 }
+
 
 @keyframes slider-animation{
     0%,10%{
