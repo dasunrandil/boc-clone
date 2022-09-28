@@ -121,29 +121,31 @@
         <div class="row">
             <div class="container clearfix">
                 <div id="slider" class="col clearfix">
-                    <div id="slide-1" class="slide">
-                        <a class="prev" href="#slide-6"><ion-icon name="chevron-back-outline"></ion-icon></a>
-                        <a class="next" href="#slide-2"><ion-icon name="chevron-forward-outline"></ion-icon></a>
-                    </div>
-                    <div id="slide-2" class="slide">
-                        <a class="prev" href="#slide-1"><ion-icon name="chevron-back-outline"></ion-icon></a>
-                        <a class="next" href="#slide-3"><ion-icon name="chevron-forward-outline"></ion-icon></a>
-                    </div>
-                    <div id="slide-3" class="slide">
-                        <a class="prev" href="#slide-2"><ion-icon name="chevron-back-outline"></ion-icon></a>
-                        <a class="next" href="#slide-4"><ion-icon name="chevron-forward-outline"></ion-icon></a>
-                    </div>
-                    <div id="slide-4" class="slide">
-                        <a class="prev" href="#slide-3"><ion-icon name="chevron-back-outline"></ion-icon></a>
-                        <a class="next" href="#slide-5"><ion-icon name="chevron-forward-outline"></ion-icon></a>
-                    </div>
-                    <div id="slide-5" class="slide">
-                        <a class="prev" href="#slide-4"><ion-icon name="chevron-back-outline"></ion-icon></a>
-                        <a class="next" href="#slide-6"><ion-icon name="chevron-forward-outline"></ion-icon></a>
-                    </div>
-                    <div id="slide-6" class="slide">
-                        <a class="prev" href="#slide-5"><ion-icon name="chevron-back-outline"></ion-icon></a>
-                        <a class="next" href="#slide-1"><ion-icon name="chevron-forward-outline"></ion-icon></a>
+                    <div id="slider-wrapper">
+                        <div id="slide-1" class="slide">
+                            <a class="prev" href="#slide-6"><ion-icon name="chevron-back-outline"></ion-icon></a>
+                            <a class="next" href="#slide-2"><ion-icon name="chevron-forward-outline"></ion-icon></a>
+                        </div>
+                        <div id="slide-2" class="slide">
+                            <a class="prev" href="#slide-1"><ion-icon name="chevron-back-outline"></ion-icon></a>
+                            <a class="next" href="#slide-3"><ion-icon name="chevron-forward-outline"></ion-icon></a>
+                        </div>
+                        <div id="slide-3" class="slide">
+                            <a class="prev" href="#slide-2"><ion-icon name="chevron-back-outline"></ion-icon></a>
+                            <a class="next" href="#slide-4"><ion-icon name="chevron-forward-outline"></ion-icon></a>
+                        </div>
+                        <div id="slide-4" class="slide">
+                            <a class="prev" href="#slide-3"><ion-icon name="chevron-back-outline"></ion-icon></a>
+                            <a class="next" href="#slide-5"><ion-icon name="chevron-forward-outline"></ion-icon></a>
+                        </div>
+                        <div id="slide-5" class="slide">
+                            <a class="prev" href="#slide-4"><ion-icon name="chevron-back-outline"></ion-icon></a>
+                            <a class="next" href="#slide-6"><ion-icon name="chevron-forward-outline"></ion-icon></a>
+                        </div>
+                        <div id="slide-6" class="slide">
+                            <a class="prev" href="#slide-5"><ion-icon name="chevron-back-outline"></ion-icon></a>
+                            <a class="next" href="#slide-1"><ion-icon name="chevron-forward-outline"></ion-icon></a>
+                        </div>
                     </div>
                 </div>
                 <div class="col">
@@ -180,6 +182,54 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="container clearfix">
+                <div class="col">
+                    <div class="wrapper">
+                        <img src="https://boc.lk/image/data/2021-New-Look/savings.jpg" alt="">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="topic">Savings</div>
+                </div>
+                <div class="col">
+                    <div class="wrapper">
+                        <img src="https://boc.lk/image/data/2021-New-Look/Loans.jpg" alt="">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="topic">Loans</div>
+                </div>
+                <div class="col">
+                    <div class="wrapper">
+                        <img src="https://boc.lk/image/data/2021-New-Look/remit.jpg" alt="">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="topic">Remittances</div>
+                </div>
+                <div class="col">
+                    <div class="wrapper">
+                        <img src="https://boc.lk/image/data/2021-New-Look/Digital.jpg" alt="">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="topic">Digital Banking</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container clearfix">
+                <div class="col">
+                    <p>CALL CENTER</p>
+                    <p><ion-icon name="call"></ion-icon><strong>1975</strong></p>
+                </div>
+                <div class="col">
+                    <a href="https://boc.lk/assets/COVID19/2/sahana.php">
+                        <img src="https://boc.lk/catalog/view/theme/default/images/boc_sahana_home-button.jpg">
+                    </a>
+                </div>
+                <div class="col">
+                    <p>BRANCH / ATM LOCATOR</p>
+                    <p>648 Branches 737 ATMs 159 CDMs 525 CRMs</p>
+                </div>
+            </div>
     </main>
     <footer>
         <div class="row">
@@ -241,6 +291,10 @@
             <span id="bubble-wrapper"><ion-icon name="chatbubble"></ion-icon></span> Chat Now
         </a>
     </aside>
+    <section id="popup">
+        <div id="close-wrapper" onclick="document.querySelector('#popup').style.display='none'"><ion-icon name="close-circle-outline"></ion-icon>Close</div>
+        <p>Be aware! This is not the original website of boc.lk. I designed this website only to practice website designing. 
+            The design of this site belongs to the creator of boc.lk</p>
+    </section>
 </body>
-
 </html>
