@@ -1,6 +1,6 @@
 # <b>Project Details</b>
 
-<p>This is a project carried out by me to check the boundaries and limitations when it comes to designing front ends. This is a clone of the Bank of Ceylon(BOC) Sri Lanka. This project which is a clone of the BOC official website has been developed only for educational purposes. All credits of the design and resources goes to it's original creators.</p>
+<p>This is a project carried out by me to check the boundaries and limitations when it comes to designing front ends with HTML5 and CSS. This is a clone of the Bank of Ceylon(BOC) Sri Lanka. This project which is a clone of the BOC official website has been developed only for educational purposes. All credits of the design and resources goes to it's original creators.</p>
 
 
 <img src="img/img1.png" width="500px" height="250px">
